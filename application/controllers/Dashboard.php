@@ -53,7 +53,7 @@ class Dashboard extends CI_Controller {
 			unset($_SESSION['warning']);
 		}
 		// End data total
-		$data = array ('title'			 => 'Halaman Dashboard',
+		$data = array ('title'			 => 'Dashboard Page',
 						'project'		=>$project,
 						'stakeholder'	=>$stakeholder,
 						'project_stakeholder' =>$project_stakeholder,

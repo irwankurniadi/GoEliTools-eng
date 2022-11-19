@@ -36,7 +36,7 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 DASHBOARD
-                <span class="right badge badge-danger">Baru</span>
+                <span class="right badge badge-danger">New</span>
               </p>
             </a>
 
@@ -47,7 +47,7 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-project-diagram"></i>
               <p>
-                DATA PROYEK
+                PROJECT DATA
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -56,7 +56,7 @@
     
                 <a href="<?php echo site_url('project')?>" class="nav-link <?php if($this->uri->segment(1) == 'project' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Proyek</p>
+                  <p>Project Data</p>
                 </a>
                 
               </li>
@@ -69,7 +69,7 @@
             <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-user-cog"></i>
               <p>
-                DATA STAKEHOLDER
+                STAKEHOLDER DATA
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -77,7 +77,7 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('stakeholder')?>" class="nav-link <?php if($this->uri->segment(1) == 'stakeholder' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Stakeholder</p>
+                  <p>Stakeholder Data</p>
                 </a>
               </li>
             </ul>
@@ -87,8 +87,8 @@
             <a href="<?php echo site_url('pengaturan')?>" class="nav-link <?php if($this->uri->segment(1) == 'pengaturan' ){echo 'active';}?>">
               <i class="nav-icon fas fa-cog"></i>
               <p>
-                PENGATURAN
-                <span class="right badge badge-danger">Baru</span>
+                SETTINGS
+                <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
@@ -98,7 +98,7 @@
             <a href="#" class="nav-link ">
              <i class="nav-icon fas fa-bullseye"></i>
               <p>
-                GOAL & FITUR SISTEM
+                GOAL & FEATURE SYSTEM
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -106,14 +106,14 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('goal')?>" class="nav-link <?php if($this->uri->segment(1) == 'goal' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Goal</p>
+                  <p>Goal Data</p>
                 </a>
               </li>
 
                <li class="nav-item">
                   <a href="<?php echo site_url('goal_fitur')?>" class="nav-link <?php if($this->uri->segment(1) == 'goal_fitur' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Fitur Goal</p>
+                  <p>Goal Feature Data</p>
                 </a>
               </li>
 
@@ -125,7 +125,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-folder"></i>
               <p>
-                DATA AKTIFITAS
+                ACTIVITIES DATA
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -133,14 +133,14 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('activities')?>" class="nav-link <?php if($this->uri->segment(1) == 'activities' ){echo 'active';}?> ">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Aktifitas</p>
+                  <p>Activities Data</p>
                 </a>
               </li>
 
                <li class="nav-item">
                   <a href="<?php echo site_url('activities_resources') ?>" class="nav-link <?php if($this->uri->segment(1) == 'activities_resources' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Sumber Daya Aktifitas</p>
+                  <p>Activities Resource Data</p>
                 </a>
               </li>
               
@@ -170,7 +170,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tasks"></i>
               <p>
-                DATA PROSEDUR 
+                PROCEDURE DATA 
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -178,14 +178,14 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('procedure')?>" class="nav-link <?php if($this->uri->segment(1) == 'procedure' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Prosedur Aktifitas</p>
+                  <p>Procedure Activitites Data</p>
                 </a>
               </li>
 
               <li class="nav-item">
                   <a href="<?php echo site_url('procedure_detail')?>" class="nav-link <?php if($this->uri->segment(1) == 'procedure_detail' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Detail Prosedur</p>
+                  <p>Procedure Detail Data</p>
                 </a>
               </li>
 
@@ -213,7 +213,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user-tie"></i>
               <p>
-                PROYEK STAKEHOLDER
+                PROJECT STAKEHOLDER 
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -221,7 +221,7 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('project_stakeholder')?>" class="nav-link <?php if($this->uri->segment(1) == 'project_stakeholder' ){echo 'active';}?>">
                   <i class="fas fa-table nav-icon"></i>
-                  <p>Data Proyek Stakeholder</p>
+                  <p>Project Stakeholder Data</p>
                 </a>
               </li>
             </ul>
@@ -233,7 +233,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user-lock"></i>
               <p>
-                DATA ADMIN SISTEM
+                ADMIN SYSTEM DATA
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -241,7 +241,7 @@
               <li class="nav-item">
                 <a href="<?php echo site_url('user')?>" class="nav-link <?php if($this->uri->segment(1) == 'user' ){echo 'active';}?>"" >
                   <i class="fas fa-users nav-icon"></i>
-                  <p>Data Administrator Sistem</p>
+                  <p>Administrator Data System</p>
                 </a>
               </li>
             </ul>
@@ -253,7 +253,7 @@
                 <a href="<?php echo site_url('panduan')?>" class="nav-link <?php if($this->uri->segment(1) == 'panduan' ){echo 'active';}?>"">
                   <i class="nav-icon fas fa-book"></i>
                   <p>
-                    BUKU PANDUAN
+                    GUIDE BOOK
                   </p>
                 </a>
               </li>
@@ -262,7 +262,7 @@
                 <a href="<?php echo site_url('laporan'); unset($_SESSION['sukses']);?>" class="nav-link <?php if($this->uri->segment(1) == 'laporan' ){echo 'active';}?>">
                   <i class="nav-icon fas fa-book-open"></i>
                   <p>
-                    LAPORAN
+                    REPORT
                   </p>
                 </a>
               </li>
@@ -271,7 +271,7 @@
             <a href="<?php echo site_url('login/logout')?>" class="nav-link ">
               <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>
-                Keluar
+                LOG OUT
               </p>
             </a>
           </li>

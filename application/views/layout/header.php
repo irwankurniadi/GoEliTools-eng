@@ -9,7 +9,7 @@
         <a href="<?php echo base_url() ?>" class="nav-link">Dashboard</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="<?php echo base_url('panduan') ?>" class="nav-link">Panduan Sistem Informasi</a>
+        <a href="<?php echo base_url('panduan') ?>" class="nav-link">Informatic System Guide</a>
       </li>
     </ul>
 
